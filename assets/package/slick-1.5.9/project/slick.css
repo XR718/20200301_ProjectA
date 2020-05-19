@@ -6,7 +6,7 @@
 .slick-dots.slick-dots.slick-dots.slick-dots li:last-child button:before,
 .slick-dots.slick-dots.slick-dots.slick-dots li:first-child.slick-active button:before,
 .slick-dots.slick-dots.slick-dots.slick-dots li:last-child.slick-active button:before{
-  color: #eb6153;
+  color: transparent;
 }
 
 .slick-dots{
@@ -39,12 +39,17 @@
   margin: 0 19.69px;
 }
 
+.slick-dots .dotSpan{
+  border: none;
+  background-color: transparent;
+  outline: none;
+    width: 14.652px;
+}
+
 .slick-dots #slickPrev,
 .slick-dots #slickNext{
   border: none;
   background-color: transparent;
-}
-
-.slick-dots #slickPrev{
-
+  outline: none;
+    height: 22.6px;
 }
