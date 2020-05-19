@@ -1,4 +1,4 @@
-/* https://codepen.io/JackyHuang/pen/GRpjJWO - 備用資源 */
+/* https://codepen.io/JackyHuang/pen/GRpjJWO - �用資� */
 /* https://codepen.io/JackyHuang/pen/PoPGXRz -  */
 
 .bannerContent {
@@ -45,10 +45,12 @@
 .banner .howToUseImgArea .fontAnim,
 .banner .staffImgArea .fontAnim{
   /* animation:  swingggg2 ease-in-out 1s alternate; */
-  animation:  swingggg2 ease-in-out 1s;
+/* 完�要�*/
+  /* animation:  swingggg2 ease-in-out 1s; */
   transform-style: preserve-3d;
   display: inline-block;
-  opacity: 0;
+/* 完�要�*/
+  opacity: 1;
   animation-fill-mode: both;
 }
 
@@ -347,8 +349,8 @@
   top: 45px;
   left: 75px;
 
-/* 完成要打開 */
-  animation: move 4s infinite;
+/* 完�要�*/
+  /* animation: move 4s infinite; */
 }
 .banner .aboutImgArea .taxiImg {
   right: 37px;
@@ -413,7 +415,7 @@
 
 
 /* swing3 */
-/* 完成要打開 */
+/* 完�要�*/
 .swing3 {
   animation: swing3 ease-in-out 3s infinite alternate;
   transform-origin: center -20px;
@@ -422,7 +424,7 @@
 @keyframes swing3 {
   0% { transform: rotate(5deg); }
   100% { transform: rotate(-5deg); }
-}
+} */
 
 @keyframes swingggg {
   0%{
@@ -452,7 +454,7 @@
   
 }
 
-/* 滑鼠過去那個區塊得東西會浮起 字飄起來
-他們希望 字是一個個浮起來 而不是整個
-如果太吃效能 就整個 */
+/* 滑�去���塊�西�浮�字�起�
+他們�字是一�個浮起� ��整
+如�太�能 就整*/
 
