@@ -7,3 +7,17 @@ window.onscroll = function () {
   if (lastScrollTop > bannerHeight) logoElement.style.visibility = 'visible'
   else logoElement.style.visibility = 'hidden'
 }
+
+
+
+$('#navigationBar .navigation__link').click(function(e){
+  var self = $(e.target)
+  var btn = self.parents('#navigationBar').find('.navigation__button')
+if (self && btn) {
+  
+}
+  btn.click()
+  moveFunc({
+    that: this
+  })
+})

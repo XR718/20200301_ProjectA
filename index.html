@@ -65,7 +65,7 @@
       <div class="pos-f-t" style="margin-right: 15px;">
 
 
-        <div class="navigation">
+        <div class="navigation" id="navigationBar">
           <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
 
           <label for="navi-toggle" class="navigation__button">
@@ -80,16 +80,16 @@
                 <img src="./assets/images/20200501_content/MENU/Menu logo.png">
               </li>
               <li class="navigation__item">
-                <a href="javascript:void(0)" class="navigation__link">ABOUT</a>
+                <a href="javascript:void(0)" class="navigation__link" data-href="#about">ABOUT</a>
               </li>
               <li class="navigation__item">
-                <a href="javascript:void(0)" class="navigation__link">HOW TO USE</a>
+                <a href="javascript:void(0)" class="navigation__link" data-href="#howToUse">HOW TO USE</a>
               </li>
               <li class="navigation__item">
-                <a href="javascript:void(0)" class="navigation__link">TOP 100 OF TAIWANESE FOODS</a>
+                <a href="javascript:void(0)" class="navigation__link" data-href="#top100OfTaiwaneseFoods">TOP 100 OF TAIWANESE FOODS</a>
               </li>
               <li class="navigation__item">
-                <a href="javascript:void(0)" class="navigation__link">STAFF</a>
+                <a href="javascript:void(0)" class="navigation__link" data-href="#staff">STAFF</a>
               </li>
               <li class="iconList d-flex justify-content-center align-content-center pb-5"  style="margin-top: 60.022px;margin-bottom: 100px;">
                 <a href="javascript:void(0)" target="_blank" class="px-2 rotateY"> <i class="fz-23px pr-1 text-white fab fa-twitter"></i></a>
@@ -940,11 +940,6 @@
   </section>
   <!-- copyrignt -->
 
-
-  
-
-
-
   <script src="assets/package/jquery/jquery-3.4.1.min.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -971,6 +966,7 @@
   <script src="assets/package/slick-1.5.9/project/slick.js"></script>
 
   <script src="assets/javaScript/global.js"></script>
+  <script src="assets/javaScript/indexCommonFunc.js"></script>
   <script src="assets/javaScript/navBar.js"></script>
   <script src="assets/javaScript/banner.js"></script>
   <script src="assets/javaScript/howToUse.js"></script>
