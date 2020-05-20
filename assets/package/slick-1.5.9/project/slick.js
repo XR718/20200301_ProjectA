@@ -105,22 +105,22 @@
       var aa = slickDots.find('li:first-child')
       if (aa) {
         aa.before(
-          '<li class="slick-active" >' +
+          '<span class="dotSpan" >' +
             '  <button class="position-relative" type="button" id="slickPrev">' +
-            '    <img class="position-relative arrow" src="assets/images/20200501_content/FOOD/T-arrow.png" alt="" style="top:-1px;left:0;">' +
+            '    <img class="position-relative arrow" src="assets/images/20200501_content/FOOD/T-arrow.png" alt="" style="top:2px;left:0;">' +
             '  </button>' +
-            '</li>'
+            '</span>'
         )
       }
 
       var aaa = slickDots.find('li:last-child')
       if (aaa) {
         aaa.after(
-          '<li class="slick-active" >' +
+          '<span class="dotSpan" >' +
             '  <button class="position-relative" type="button" id="slickNext">' +
-            '    <img class="position-relative arrow" src="assets/images/20200501_content/FOOD/T-arrow2.png" alt="" style="top:-1px;left:0;">' +
+            '    <img class="position-relative arrow" src="assets/images/20200501_content/FOOD/T-arrow2.png" alt="" style="top:2px;left:0;">' +
             '  </button>' +
-            '</li>'
+            '</span>'
         )
       }
     }

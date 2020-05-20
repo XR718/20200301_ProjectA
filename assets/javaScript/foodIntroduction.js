@@ -31,7 +31,7 @@ $(function () {
   var foodIntroductionElement = $('#foodIntroduction')
 
   function template() {
-    return '<iframe src="./beef_noodles.html" name="foodIntroductioniFrame" width="100%" marginwidth="0" marginheight="0" scrolling="No" frameborder="0" id="foodIntroductioniFrame" style="height: 1228px;"/>'
+    if ( false ) return '<iframe src="./beef_noodles.html" name="foodIntroductioniFrame" width="100%" marginwidth="0" marginheight="0" scrolling="No" frameborder="0" id="foodIntroductioniFrame" style="height: 1228px;"/>'
   }
   foodIntroductionElement.append(template()).css('height', '1228px')
   if ( false )
