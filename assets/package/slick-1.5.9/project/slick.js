@@ -92,6 +92,7 @@
               slider.append( newSlides );
               slider.slick( settings.slick );
 
+              appendDots()
 
           });
       });
@@ -99,7 +100,7 @@
 }(jQuery)); 
  
  // 附加DOM
-  function appendDots(){
+  function appendDots( ){
     var slickDots = $('.slick-dots')
     if (slickDots[0]) {
       var aa = slickDots.find('li:first-child')
@@ -163,30 +164,29 @@ $(document).ready(function() {
   //   asNavFor: null
   // })
   $('.slider-nav').slickFilterable({
-    filterName: 'filter-heading',
-    filter: function( category, slider, settings ) {
-      return $(this).hasClass( category );
-    },
-    slick:   {
-  infinite: true,
-  slidesPerRow: 5,
-  rows: 4,
-  speed: 500,
-  fade: true,
-  cssEase: 'linear',
-  asNavFor: '.slider-for',
-  dots: true,
-  focusOnSelect: true,
-  asNavFor: null
-}
-});
+      filterName: 'filter-heading',
+      filter: function( category, slider, settings ) {
+        return $(this).hasClass( category );
+      },
+      slick:   {
+    infinite: true,
+    slidesPerRow: 5,
+    rows: 4,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    asNavFor: '.slider-for',
+    dots: true,
+    focusOnSelect: true,
+    asNavFor: null
+  }
+  });
 
   appendDots()
 })
 
 
 // 隨機按鈕
-
 $(document).ready(function() {
   var sliderNavDom =  $('.slider-nav')
   var randomBtnDom = $('#randomBtn')
