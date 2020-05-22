@@ -15,7 +15,8 @@
 }
 
 .staff .textContent .subTitle{
-  width: 44.353px;
+  /* width: 44.353px; - 修改前數值  */
+  width: 85.353px;
   height: auto;
   margin-top:41.836px;
   margin-bottom: 8.001px;

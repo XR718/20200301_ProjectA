@@ -14,7 +14,8 @@
 }
 
 .about .textContent .subTitle{
-  width: 62.323px;
+  /* width: 62.323px;- 修改前數值 */
+  width: 106.323px;
   height: auto;
   /* height: 17.935px; */
   margin-top: 41.836px;

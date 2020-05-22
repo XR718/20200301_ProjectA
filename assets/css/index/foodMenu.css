@@ -55,6 +55,7 @@
 .foodMenuNavbar .nav-linkImg {
   width: 85px;
   position: relative;
+  margin: 0 auto;
 }
 
 .foodMenuNavbar .nav-linkImg::after {
